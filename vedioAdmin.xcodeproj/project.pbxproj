@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0996F4E526666AB900CB27FE /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996F4E426666AB900CB27FE /* VideoViewController.swift */; };
+		0996F4ED26666EDB00CB27FE /* LyricManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996F4EC26666EDB00CB27FE /* LyricManager.swift */; };
+		09A6029C265A61A800953AA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A6029B265A61A800953AA8 /* AppDelegate.swift */; };
+		09A6029E265A61A800953AA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A6029D265A61A800953AA8 /* SceneDelegate.swift */; };
+		09A602A0265A61A800953AA8 /* SearchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A6029F265A61A800953AA8 /* SearchListViewController.swift */; };
+		09A602A3265A61A800953AA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A602A1265A61A800953AA8 /* Main.storyboard */; };
+		09A602A6265A61A800953AA8 /* vedioAdmin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09A602A4265A61A800953AA8 /* vedioAdmin.xcdatamodeld */; };
+		09A602A8265A61AB00953AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A602A7265A61AB00953AA8 /* Assets.xcassets */; };
+		09A602AB265A61AB00953AA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A602A9265A61AB00953AA8 /* LaunchScreen.storyboard */; };
+		09A602B6265A61AB00953AA8 /* vedioAdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A602B5265A61AB00953AA8 /* vedioAdminTests.swift */; };
+		09A602C1265A61AB00953AA8 /* vedioAdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A602C0265A61AB00953AA8 /* vedioAdminUITests.swift */; };
+		09A602D4265A61CA00953AA8 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A602D3265A61CA00953AA8 /* CloudKit.framework */; };
+		09A602D9265A62F900953AA8 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A602D8265A62F900953AA8 /* DatabaseManager.swift */; };
+		09A602E6265A850100953AA8 /* ModifyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A602E5265A850100953AA8 /* ModifyListViewController.swift */; };
+		09A602EE265A859800953AA8 /* FinishListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A602ED265A859800953AA8 /* FinishListViewController.swift */; };
+		09A602F6265BE53B00953AA8 /* ChangeFormClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A602F5265BE53B00953AA8 /* ChangeFormClass.swift */; };
+		09A60313265E9F7D00953AA8 /* ModifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A602FD265D255100953AA8 /* ModifyViewController.swift */; };
+		5B705D868E29EA2A0512AC19 /* Pods_vedioAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5095A462A55B1AE88870C98C /* Pods_vedioAdmin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09A602B2265A61AB00953AA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09A60290265A61A800953AA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09A60297265A61A800953AA8;
+			remoteInfo = vedioAdmin;
+		};
+		09A602BD265A61AB00953AA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09A60290265A61A800953AA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09A60297265A61A800953AA8;
+			remoteInfo = vedioAdmin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0996F4E426666AB900CB27FE /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		0996F4EC26666EDB00CB27FE /* LyricManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricManager.swift; sourceTree = "<group>"; };
+		09A60298265A61A800953AA8 /* vedioAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vedioAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A6029B265A61A800953AA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09A6029D265A61A800953AA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		09A6029F265A61A800953AA8 /* SearchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListViewController.swift; sourceTree = "<group>"; };
+		09A602A2265A61A800953AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09A602A5265A61A800953AA8 /* vedioAdmin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = vedioAdmin.xcdatamodel; sourceTree = "<group>"; };
+		09A602A7265A61AB00953AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09A602AA265A61AB00953AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09A602AC265A61AB00953AA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A602B1265A61AB00953AA8 /* vedioAdminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vedioAdminTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A602B5265A61AB00953AA8 /* vedioAdminTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vedioAdminTests.swift; sourceTree = "<group>"; };
+		09A602B7265A61AB00953AA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A602BC265A61AB00953AA8 /* vedioAdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vedioAdminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A602C0265A61AB00953AA8 /* vedioAdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vedioAdminUITests.swift; sourceTree = "<group>"; };
+		09A602C2265A61AB00953AA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A602D1265A61C500953AA8 /* vedioAdmin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = vedioAdmin.entitlements; sourceTree = "<group>"; };
+		09A602D3265A61CA00953AA8 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		09A602D8265A62F900953AA8 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		09A602E5265A850100953AA8 /* ModifyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyListViewController.swift; sourceTree = "<group>"; };
+		09A602ED265A859800953AA8 /* FinishListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishListViewController.swift; sourceTree = "<group>"; };
+		09A602F5265BE53B00953AA8 /* ChangeFormClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeFormClass.swift; sourceTree = "<group>"; };
+		09A602FD265D255100953AA8 /* ModifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyViewController.swift; sourceTree = "<group>"; };
+		5095A462A55B1AE88870C98C /* Pods_vedioAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vedioAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A1CF0FCAC419202A3CF597 /* Pods-vedioAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vedioAdmin.debug.xcconfig"; path = "Target Support Files/Pods-vedioAdmin/Pods-vedioAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		84DB111DA70A38B391E0D6E2 /* Pods-vedioAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vedioAdmin.release.xcconfig"; path = "Target Support Files/Pods-vedioAdmin/Pods-vedioAdmin.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09A60295265A61A800953AA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A602D4265A61CA00953AA8 /* CloudKit.framework in Frameworks */,
+				5B705D868E29EA2A0512AC19 /* Pods_vedioAdmin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A602AE265A61AB00953AA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A602B9265A61AB00953AA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09A6028F265A61A800953AA8 = {
+			isa = PBXGroup;
+			children = (
+				09A6029A265A61A800953AA8 /* vedioAdmin */,
+				09A602B4265A61AB00953AA8 /* vedioAdminTests */,
+				09A602BF265A61AB00953AA8 /* vedioAdminUITests */,
+				09A60299265A61A800953AA8 /* Products */,
+				09A602D2265A61CA00953AA8 /* Frameworks */,
+				3AF8B6F084F59C407CEFF011 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		09A60299265A61A800953AA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09A60298265A61A800953AA8 /* vedioAdmin.app */,
+				09A602B1265A61AB00953AA8 /* vedioAdminTests.xctest */,
+				09A602BC265A61AB00953AA8 /* vedioAdminUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09A6029A265A61A800953AA8 /* vedioAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				09A602D1265A61C500953AA8 /* vedioAdmin.entitlements */,
+				09A6029B265A61A800953AA8 /* AppDelegate.swift */,
+				09A6029D265A61A800953AA8 /* SceneDelegate.swift */,
+				09A6029F265A61A800953AA8 /* SearchListViewController.swift */,
+				09A602E5265A850100953AA8 /* ModifyListViewController.swift */,
+				09A602ED265A859800953AA8 /* FinishListViewController.swift */,
+				09A602FD265D255100953AA8 /* ModifyViewController.swift */,
+				0996F4E426666AB900CB27FE /* VideoViewController.swift */,
+				09A602D8265A62F900953AA8 /* DatabaseManager.swift */,
+				09A602F5265BE53B00953AA8 /* ChangeFormClass.swift */,
+				0996F4EC26666EDB00CB27FE /* LyricManager.swift */,
+				09A602A1265A61A800953AA8 /* Main.storyboard */,
+				09A602A7265A61AB00953AA8 /* Assets.xcassets */,
+				09A602A9265A61AB00953AA8 /* LaunchScreen.storyboard */,
+				09A602AC265A61AB00953AA8 /* Info.plist */,
+				09A602A4265A61A800953AA8 /* vedioAdmin.xcdatamodeld */,
+			);
+			path = vedioAdmin;
+			sourceTree = "<group>";
+		};
+		09A602B4265A61AB00953AA8 /* vedioAdminTests */ = {
+			isa = PBXGroup;
+			children = (
+				09A602B5265A61AB00953AA8 /* vedioAdminTests.swift */,
+				09A602B7265A61AB00953AA8 /* Info.plist */,
+			);
+			path = vedioAdminTests;
+			sourceTree = "<group>";
+		};
+		09A602BF265A61AB00953AA8 /* vedioAdminUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09A602C0265A61AB00953AA8 /* vedioAdminUITests.swift */,
+				09A602C2265A61AB00953AA8 /* Info.plist */,
+			);
+			path = vedioAdminUITests;
+			sourceTree = "<group>";
+		};
+		09A602D2265A61CA00953AA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09A602D3265A61CA00953AA8 /* CloudKit.framework */,
+				5095A462A55B1AE88870C98C /* Pods_vedioAdmin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AF8B6F084F59C407CEFF011 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52A1CF0FCAC419202A3CF597 /* Pods-vedioAdmin.debug.xcconfig */,
+				84DB111DA70A38B391E0D6E2 /* Pods-vedioAdmin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09A60297265A61A800953AA8 /* vedioAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A602C5265A61AB00953AA8 /* Build configuration list for PBXNativeTarget "vedioAdmin" */;
+			buildPhases = (
+				1D782810372692E6D0DD092F /* [CP] Check Pods Manifest.lock */,
+				09A60294265A61A800953AA8 /* Sources */,
+				09A60295265A61A800953AA8 /* Frameworks */,
+				09A60296265A61A800953AA8 /* Resources */,
+				84F335B6E287273609C451BB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vedioAdmin;
+			productName = vedioAdmin;
+			productReference = 09A60298265A61A800953AA8 /* vedioAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09A602B0265A61AB00953AA8 /* vedioAdminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A602C8265A61AB00953AA8 /* Build configuration list for PBXNativeTarget "vedioAdminTests" */;
+			buildPhases = (
+				09A602AD265A61AB00953AA8 /* Sources */,
+				09A602AE265A61AB00953AA8 /* Frameworks */,
+				09A602AF265A61AB00953AA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09A602B3265A61AB00953AA8 /* PBXTargetDependency */,
+			);
+			name = vedioAdminTests;
+			productName = vedioAdminTests;
+			productReference = 09A602B1265A61AB00953AA8 /* vedioAdminTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09A602BB265A61AB00953AA8 /* vedioAdminUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A602CB265A61AB00953AA8 /* Build configuration list for PBXNativeTarget "vedioAdminUITests" */;
+			buildPhases = (
+				09A602B8265A61AB00953AA8 /* Sources */,
+				09A602B9265A61AB00953AA8 /* Frameworks */,
+				09A602BA265A61AB00953AA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09A602BE265A61AB00953AA8 /* PBXTargetDependency */,
+			);
+			name = vedioAdminUITests;
+			productName = vedioAdminUITests;
+			productReference = 09A602BC265A61AB00953AA8 /* vedioAdminUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09A60290265A61A800953AA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					09A60297265A61A800953AA8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					09A602B0265A61AB00953AA8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 09A60297265A61A800953AA8;
+					};
+					09A602BB265A61AB00953AA8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 09A60297265A61A800953AA8;
+					};
+				};
+			};
+			buildConfigurationList = 09A60293265A61A800953AA8 /* Build configuration list for PBXProject "vedioAdmin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09A6028F265A61A800953AA8;
+			productRefGroup = 09A60299265A61A800953AA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09A60297265A61A800953AA8 /* vedioAdmin */,
+				09A602B0265A61AB00953AA8 /* vedioAdminTests */,
+				09A602BB265A61AB00953AA8 /* vedioAdminUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09A60296265A61A800953AA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A602AB265A61AB00953AA8 /* LaunchScreen.storyboard in Resources */,
+				09A602A8265A61AB00953AA8 /* Assets.xcassets in Resources */,
+				09A602A3265A61A800953AA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A602AF265A61AB00953AA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A602BA265A61AB00953AA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D782810372692E6D0DD092F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vedioAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84F335B6E287273609C451BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vedioAdmin/Pods-vedioAdmin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vedioAdmin/Pods-vedioAdmin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vedioAdmin/Pods-vedioAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09A60294265A61A800953AA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A602F6265BE53B00953AA8 /* ChangeFormClass.swift in Sources */,
+				09A602E6265A850100953AA8 /* ModifyListViewController.swift in Sources */,
+				09A602A0265A61A800953AA8 /* SearchListViewController.swift in Sources */,
+				09A6029C265A61A800953AA8 /* AppDelegate.swift in Sources */,
+				0996F4E526666AB900CB27FE /* VideoViewController.swift in Sources */,
+				09A602EE265A859800953AA8 /* FinishListViewController.swift in Sources */,
+				09A602D9265A62F900953AA8 /* DatabaseManager.swift in Sources */,
+				0996F4ED26666EDB00CB27FE /* LyricManager.swift in Sources */,
+				09A6029E265A61A800953AA8 /* SceneDelegate.swift in Sources */,
+				09A60313265E9F7D00953AA8 /* ModifyViewController.swift in Sources */,
+				09A602A6265A61A800953AA8 /* vedioAdmin.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A602AD265A61AB00953AA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A602B6265A61AB00953AA8 /* vedioAdminTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A602B8265A61AB00953AA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A602C1265A61AB00953AA8 /* vedioAdminUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09A602B3265A61AB00953AA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09A60297265A61A800953AA8 /* vedioAdmin */;
+			targetProxy = 09A602B2265A61AB00953AA8 /* PBXContainerItemProxy */;
+		};
+		09A602BE265A61AB00953AA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09A60297265A61A800953AA8 /* vedioAdmin */;
+			targetProxy = 09A602BD265A61AB00953AA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09A602A1265A61A800953AA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09A602A2265A61A800953AA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09A602A9265A61AB00953AA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09A602AA265A61AB00953AA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09A602C3265A61AB00953AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09A602C4265A61AB00953AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09A602C6265A61AB00953AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52A1CF0FCAC419202A3CF597 /* Pods-vedioAdmin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = vedioAdmin/vedioAdmin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X49Y8FTV3;
+				INFOPLIST_FILE = vedioAdmin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chuweilun.vedioAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09A602C7265A61AB00953AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84DB111DA70A38B391E0D6E2 /* Pods-vedioAdmin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = vedioAdmin/vedioAdmin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X49Y8FTV3;
+				INFOPLIST_FILE = vedioAdmin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chuweilun.vedioAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09A602C9265A61AB00953AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X49Y8FTV3;
+				INFOPLIST_FILE = vedioAdminTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chuweilun.vedioAdminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vedioAdmin.app/vedioAdmin";
+			};
+			name = Debug;
+		};
+		09A602CA265A61AB00953AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X49Y8FTV3;
+				INFOPLIST_FILE = vedioAdminTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chuweilun.vedioAdminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vedioAdmin.app/vedioAdmin";
+			};
+			name = Release;
+		};
+		09A602CC265A61AB00953AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X49Y8FTV3;
+				INFOPLIST_FILE = vedioAdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chuweilun.vedioAdminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vedioAdmin;
+			};
+			name = Debug;
+		};
+		09A602CD265A61AB00953AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X49Y8FTV3;
+				INFOPLIST_FILE = vedioAdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chuweilun.vedioAdminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vedioAdmin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09A60293265A61A800953AA8 /* Build configuration list for PBXProject "vedioAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A602C3265A61AB00953AA8 /* Debug */,
+				09A602C4265A61AB00953AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09A602C5265A61AB00953AA8 /* Build configuration list for PBXNativeTarget "vedioAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A602C6265A61AB00953AA8 /* Debug */,
+				09A602C7265A61AB00953AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09A602C8265A61AB00953AA8 /* Build configuration list for PBXNativeTarget "vedioAdminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A602C9265A61AB00953AA8 /* Debug */,
+				09A602CA265A61AB00953AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09A602CB265A61AB00953AA8 /* Build configuration list for PBXNativeTarget "vedioAdminUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A602CC265A61AB00953AA8 /* Debug */,
+				09A602CD265A61AB00953AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09A602A4265A61A800953AA8 /* vedioAdmin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09A602A5265A61A800953AA8 /* vedioAdmin.xcdatamodel */,
+			);
+			currentVersion = 09A602A5265A61A800953AA8 /* vedioAdmin.xcdatamodel */;
+			path = vedioAdmin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 09A60290265A61A800953AA8 /* Project object */;
+}
